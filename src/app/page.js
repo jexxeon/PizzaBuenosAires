@@ -35,7 +35,7 @@ export default function Home() {
             className="text-4xl underline text-gray-500"
             href="tel:+573053891080"
           >
-            +57 305 3891080
+            +57 315 7023989
           </a>
         </div>
       </section>

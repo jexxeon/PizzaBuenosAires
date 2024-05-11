@@ -24,7 +24,7 @@ export default function Header() {
               onClick={() => signOut()}
               className="bg-primary rounded-full text-white px-8 py-2"
             >
-              Cerrar Sección
+              Cerrar Sesión
             </button>
           )}
           {status !== "authenticated" && (
