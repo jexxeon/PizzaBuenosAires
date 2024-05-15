@@ -28,12 +28,31 @@ export default function HomeMenu() {
           <SectionHeaders subHeader={"Disponible"} mainHeader={"Menu"} />
         </div>
         <div className="grid grid-cols-3 gap-4">
-          <MenuItem />
-          <MenuItem />
-          <MenuItem />
-          <MenuItem />
-          <MenuItem />
-          <MenuItem />
+          <MenuItem img="/pepperoni.png"
+            titulo="Pepperoni"
+            desc="Una deliciosa pizza de pepperoni y una de las mas famosas"
+            precio="$25k" />
+          <MenuItem img="/margarita.png"
+            titulo="Margarita"
+            desc="Una deliciosa pizza de albahaca y mozzarella"
+            precio="$20k" />
+          <MenuItem img="/hawaiana.png"
+            titulo="Hawaiana"
+            desc="Una deliciosa pizza de piña con jamon y queso"
+            precio="$20k" />
+            <MenuItem img="/pollochampinon.png"
+            titulo="Pollo con Champiñones"
+            desc="Una deliciosa pizza de pollo con champiñones frescos"
+            precio="$25k" />
+            <MenuItem img="/vegetariana.png"
+            titulo="Vegetariana"
+            desc="Una deliciosa pizza con los vegetales mas frescos"
+            precio="$20k" />
+            <MenuItem img="/queso.png"
+            titulo="Solo queso"
+            desc="Una deliciosa pizza de solo queso para personas sencillas como tú"
+            precio="$15k" />
+
         </div>
       </section>
     </>
